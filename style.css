@@ -1,0 +1,45 @@
+*{
+    margin: 0.4rem;
+    padding: 0.4rem;
+}
+div{
+    background-color: rgb(187, 177, 177);
+}
+.center{
+    text-align: center;
+    padding-top: 1rem;
+}
+.border{
+    text-align: center;
+    border: 1px solid;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 0.6rem;
+    margin: 1rem;
+}
+.radius{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 0.6rem;
+    margin: 1rem;
+}
+img{
+    padding-top: 2rem;
+    border-radius: 14rem;
+}
+.most{
+    padding: 0.8rem;
+    background-color: gray;
+    border-radius: 0.6rem;
+    margin: 1rem;
+}
+.this{
+    text-align: center;
+}
+.one{
+    padding-left: 26rem;
+}
+cite{
+    display: flex;
+    justify-content: center;
+}
