@@ -1,6 +1,6 @@
 *{
-    margin: 0.4rem;
-    padding: 0.4rem;
+    margin: 0.1rem;
+    padding: 0.1rem;
 }
 div{
     background-color: rgb(187, 177, 177);
@@ -24,8 +24,9 @@ div{
     margin: 1rem;
 }
 img{
-    padding-top: 2rem;
     border-radius: 14rem;
+    /* width: 46vw;
+    height: 28vh; */
 }
 .most{
     padding: 0.8rem;
@@ -34,10 +35,19 @@ img{
     margin: 1rem;
 }
 .this{
-    text-align: center;
+    padding-left: 12rem;
+    border: 1px solid;
+    border-radius: 0.6rem;
+    margin: 1rem;
 }
 .one{
-    padding-left: 26rem;
+    padding-left: 16rem;
+    
+}
+.onassis{
+    border: 1px solid;
+    border-radius: 0.6rem;
+    margin: 1rem;
 }
 cite{
     display: flex;
