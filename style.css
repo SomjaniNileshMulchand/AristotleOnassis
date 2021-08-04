@@ -10,46 +10,49 @@ div{
     padding-top: 1rem;
 }
 .border{
-    text-align: center;
+    text-align: left;
     border: 1px solid;
     padding-left: 4rem;
     padding-right: 4rem;
-    border-radius: 0.6rem;
+    border-radius: 0.4rem;
     margin: 1rem;
 }
 .radius{
     text-align: center;
     border: 1px solid;
-    border-radius: 0.6rem;
+    border-radius: 0.4rem;
     margin: 1rem;
 }
 img{
     border-radius: 14rem;
-    /* width: 46vw;
-    height: 28vh; */
 }
 .most{
     padding: 0.8rem;
     background-color: gray;
-    border-radius: 0.6rem;
+    border-radius: 0.4rem;
     margin: 1rem;
 }
 .this{
-    padding-left: 12rem;
-    border: 1px solid;
-    border-radius: 0.6rem;
-    margin: 1rem;
-}
-.one{
-    padding-left: 16rem;
-    
+    padding-left: 2rem;
 }
 .onassis{
-    border: 1px solid;
-    border-radius: 0.6rem;
-    margin: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 cite{
     display: flex;
     justify-content: center;
+}
+@media (max-width:1200px) {
+    .onassis{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+@media (max-width:1200px) {
+    .border{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
 }
